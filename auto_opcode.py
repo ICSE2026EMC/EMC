@@ -6,7 +6,7 @@ import time
 ida_path = "D:\IDAPro\ida64.exe"
 work_dir = os.path.abspath('.')
 #pefile_dir = os.path.join(work_dir, 'pefile')
-pefile_dir = 'F:\MalwareDrift\malwareexe'   #directory of malware binary files 
+pefile_dir = 'F:\MalwareDrift\malwareexe'   # The path of malware binary files 
 script_path = os.path.join(work_dir, 'ida_opcode.py')
 
 pefile_list = os.listdir(pefile_dir)
