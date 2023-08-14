@@ -44,8 +44,7 @@ def main():
         random.seed(args.seed)
         torch.manual_seed(args.seed)        #cpu seed
         torch.cuda.manual_seed_all(args.seed)   #all gpu seed
-        cudnn.deterministic = True  #每次返回的卷积算法将是确定的，即默认算法。如果配合上设置 Torch 的随机种子为固定值的话，可以保证每次运行网络的时候相同输入的输出是固定的
-
+        cudnn.deterministic = True  
     if args.gpu is not None:
         warnings.warn('You have chosen a specific GPU. This will completely '
                       'disable data parallelism.')
@@ -74,8 +73,8 @@ def main_worker(ngpus_per_node, args):
         pass
 
     num_ftrs = model.fc1.in_features
-    model.fc1 = nn.Linear(num_ftrs, args.classes_num)   #获取原本的fc层输入节点个数，修改输出节点个数（几个分类label）
-    nn.init.xavier_uniform_(model.fc1.weight, .1)   #weight * x + bias （wx + b）重新设置新fc层wx参数
+    model.fc1 = nn.Linear(num_ftrs, args.classes_num)   
+    nn.init.xavier_uniform_(model.fc1.weight, .1)   
     nn.init.constant_(model.fc1.bias, 0.)
 
     if args.distributed:
@@ -143,10 +142,10 @@ def main_worker(ngpus_per_node, args):
         else:
             print("=> no checkpoint found at '{}'".format(args.resume))
 
-    cudnn.benchmark = True  #自动寻找最高效的算法
+    cudnn.benchmark = True  
 
-    traindir = '/home/user/zhj/output_file_pre.txt'
-    valdir = '/home/user/zhj/output_file_post.txt'
+    traindir = 'output_file_pre.txt'
+    valdir = 'output_file_post.txt'
 	# # /root/slabt/dataset/ + MNLI/ + 
     # traindir = os.path.join(args.data, args.dataset, 'mnli_trainset.tsv')
     # valdir = os.path.join(args.data, args.dataset, 'mnli_valset.tsv')
