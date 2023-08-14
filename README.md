@@ -30,23 +30,30 @@ Code:<https://github.com/MHunt-er/Benchmarking-Malware-Family-Classification>
 Disassembly
 
 
-Put the `auto_opcode.py` `call_opcode.py` `ida_opcode.py` in the IDA Pro working directory and run
+Put the `auto_opcode.py` `call_opcode.py` `ida_opcode.py` in the IDA Pro working directory. 
+
+Put the raw malware binary files in the `pefile_dir` and run
 ```
 python auto_opcode.py
 ```
 
 Feature Process
 
+Put the output of `auto_opcode.py` in the `folder_path` and run
 ```
 python opc_trans_sen.py
 ```
 
 Feature Decorrelation
+
+Put the training and verification feature vectors processed by `opc_trans_sen.py` under path `traindir` `valdir`, and run
 ```
 python main_FeatDe.py
 ```
 
 Feature Decorrelation and Purification
+
+Put the training and verification feature vectors processed by `opc_trans_sen.py` under path `traindir` `valdir`, and run
 ```
 python main_DePro.py
 ```
