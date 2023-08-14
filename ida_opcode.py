@@ -22,7 +22,7 @@ import idc
 def controller():
     opcode = []
     basename = ida_nalt.get_root_filename()
-    info_filename = "F:\opcodelist_drift\\"+ basename + ".info"    #directory of output
+    info_filename = "F:\opcodelist_drift\\"+ basename + ".info"    # The path of disassembly output
     functions = idautils.Functions()
     for f in functions:
         print(f)
