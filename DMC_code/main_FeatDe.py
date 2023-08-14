@@ -140,8 +140,8 @@ def main_worker(ngpus_per_node, args):
 
     cudnn.benchmark = True  #自动寻找最高效的算法
 
-    traindir = '/home/user/output_file_pre.txt'
-    valdir = '/home/user/output_file_post.txt'
+    traindir = 'output_file_pre.txt'
+    valdir = 'output_file_post.txt'
 	# # /root/slabt/dataset/ + MNLI/ + 
     # traindir = os.path.join(args.data, args.dataset, 'mnli_trainset.tsv')
     # valdir = os.path.join(args.data, args.dataset, 'mnli_valset.tsv')
