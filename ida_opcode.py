@@ -22,7 +22,7 @@ import idc
 def controller():
     opcode = []
     basename = ida_nalt.get_root_filename()
-    info_filename = "F:\opcodelist_drift\\"+ basename + ".info"
+    info_filename = "F:\opcodelist_drift\\"+ basename + ".info"    #directory of output
     functions = idautils.Functions()
     for f in functions:
         print(f)
