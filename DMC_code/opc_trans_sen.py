@@ -64,7 +64,7 @@ import csv
 
 
 hashname = {}
-with open('/work/MalwareDrift_Labels.csv','r') as f:
+with open('MalwareDrift_Labels.csv','r') as f:
 	for line in f:
 		hashname.setdefault(line.split(',')[0],line.split(',')[1])
 
