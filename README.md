@@ -20,7 +20,7 @@ The dataset `MalwareBazaar` `MalwareDrift` and label files `MalwareBazaar_Labels
 
 \[FSE2021\] [A Comprehensive Study on Learning-Based PE Malware Family Classification Methods.](https://dl.acm.org/doi/abs/10.1145/3468264.3473925)
 
-Code:<https://github.com/MHunt-er/Benchmarking-Malware-Family-Classification>
+Dataset:<https://github.com/MHunt-er/Benchmarking-Malware-Family-Classification>
 
 
 
