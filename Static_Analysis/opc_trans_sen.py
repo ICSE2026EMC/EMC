@@ -64,13 +64,13 @@ import csv
 
 
 hashname = {}
-with open('MalwareDrift_Labels.csv','r') as f:
+with open('/work/MalwareDrift_Labels.csv','r') as f:
 	for line in f:
 		hashname.setdefault(line.split(',')[0],line.split(',')[1])
 
-folder_path = "/work/opcodelist_drift/post"	# The path of the output of ida_opcode.py
+folder_path = "/work/opcodelist_drift/post"
 #folder_path = "/work/opcodelist_drift/post"
-output_path = "/work/output_file_post.txt"	# The output path of the feature vectors of the samples in folder_path
+output_path = "/work/output_file_post.txt"
 #output_path = "/work/zhj/output_file_post.txt"
 
 with open(output_path, "w") as output_file:
