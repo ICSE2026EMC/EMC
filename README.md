@@ -4,6 +4,8 @@ README
 
 A Robust Windows Malware Classification Refinement for Concept Drift.
 
+![Figure 4 Ablation Experiment](https://github.com/DMCISSTA2024/DMC/edit/main/Figure 4 Ablation Experiment.pdf)
+
 
 ## Setup
 
