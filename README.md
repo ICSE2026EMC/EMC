@@ -31,9 +31,20 @@ Dataset:<https://github.com/MHunt-er/Benchmarking-Malware-Family-Classification>
 
 ## Experimental Settings
 
-```
-sd
-```
+|    Model     | Optimizer | Learning Rate | Batch Size |                     Input Format                      |
+| :----------: | :-------: | :-----------: | :--------: | :---------------------------------------------------: |
+|  ResNet-50   |   Adam    |     1e-3      |     64     |                  224*224 color image                  |
+|    VGG-16    |    SGD    |    5e-6**     |     64     |                  224*224 color image                  |
+| Inception-V3 |   Adam    |     1e-3      |     64     |                  224*224 color image                  |
+|    IMCFN     |    SGD    |    5e-6***    |     32     |                  224*224 color image                  |
+|   CBOW+MLP   |    SGD    |     1e-3      |    128     |       CBOW: byte sequences; MLP: 256*256 matrix       |
+|   MalConv    |    SGD    |     1e-3      |     32     |                  2MB raw byte values                  |
+|    MAGIC     |   Adam    |     1e-4      |     10     |                         ACFG                          |
+| Word2Vec+KNN |     -     |       -       |     -      | Word2Vec: Opcode sequences; KNN distance measure: WMD |
+|     MCSC     |    SGD    |     5e-3      |     64     |                   Opcode sequences                    |
+|     DMC      |   Adam    |     5e-5      |     12     |                Orient-opcode sequences                |
+
+
 
 
 ## Useage
