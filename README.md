@@ -29,6 +29,11 @@ The dataset `MalwareBazaar` `MalwareDrift` and label files `MalwareBazaar_Labels
 Dataset:<https://github.com/MHunt-er/Benchmarking-Malware-Family-Classification>
 
 
+## Experimental Settings
+
+```
+sd
+```
 
 
 ## Useage
