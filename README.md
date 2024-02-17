@@ -44,7 +44,7 @@ Dataset:<https://github.com/MHunt-er/Benchmarking-Malware-Family-Classification>
 |     MCSC     |    SGD    |     5e-3      |     64     |                   Opcode sequences                    |
 |     DMC      |   Adam    |     5e-5      |     12     |                Orient-opcode sequences                |
 
-
+Early Stopping Patience: 10
 
 
 ## Useage
