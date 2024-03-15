@@ -1,12 +1,12 @@
 README
 
-# DMC
+# EMC
 
 A Robust Windows Malware Classification Refinement for Concept Drift.
 
-![Figure4 Ablation Experiment](https://github.com/DMCISSTA2024/DMC/blob/main/Figure4.png)
+![Figure4 Ablation Experiment](https://github.com/EMCISSTA2024/EMC/blob/main/Figure4.png)
 
-![Table4 Performance of all methods on MalwareDrift](https://github.com/DMCISSTA2024/DMC/blob/main/Table4.png)
+![Table4 Performance of all methods on MalwareDrift](https://github.com/EMCISSTA2024/EMC/blob/main/Table4.png)
 
 
 
@@ -42,7 +42,7 @@ Dataset:<https://github.com/MHunt-er/Benchmarking-Malware-Family-Classification>
 |    MAGIC     |   Adam    |     1e-4      |     10     |                         ACFG                          |
 | Word2Vec+KNN |     -     |       -       |     -      | Word2Vec: Opcode sequences; KNN distance measure: WMD |
 |     MCSC     |    SGD    |     5e-3      |     64     |                   Opcode sequences                    |
-|     DMC      |   Adam    |     5e-5      |     12     |                Orient-opcode sequences                |
+|     EMC      |   Adam    |     5e-5      |     12     |                Orient-opcode sequences                |
 
 Early Stopping Patience: 10
 
