@@ -5,7 +5,42 @@ README
 A Robust Windows Malware Classification Refinement for Concept Drift.
 
 
+##Update after Rebuttal
+FPR for all MalwareBazaar experiment (TABLE III)
+|    Model     |    FPR    |
+| :----------: | :-------: | 
+|  ResNet-50   |    3.31   |
+|    VGG-16    |    3.22   |
+| Inception-V3 |    4.98   |
+|    IMCFN     |    2.88   |
+|   CBOW+MLP   |    1.73   |
+|   MalConv    |    3.99   |
+|    MAGIC     |   15.34   |
+| Word2Vec+KNN |    7.08   |
+|     MCSC     |    5.11   |
+|     EMC      |    0.82   |
 
+FPR for all MalwareDrift experiment (pre-drift in TABLE IV)
+|    Model     |    FPR    |
+| :----------: | :-------: | 
+|    IMCFN     |   15.89   |
+|   MalConv    |   29.33   |
+|   CBOW+MLP   |   17.71   |
+|    MAGIC     |   15.50   |
+| Word2Vec+KNN |   22.31   |
+|     MCSC     |   28.44   |
+|     EMC      |   18.68   |
+
+FPR for all MalwareDrift experiment (post-drift in TABLE IV)
+|    Model     |    FPR    |
+| :----------: | :-------: | 
+|    IMCFN     |   60.44   |
+|   MalConv    |   79.58   |
+|   CBOW+MLP   |   92.31   |
+|    MAGIC     |   74.14   |
+| Word2Vec+KNN |   59.97   |
+|     MCSC     |   61.08   |
+|     EMC      |   37.77   |
 
 
 
@@ -45,7 +80,7 @@ Dataset:<https://github.com/MHunt-er/Benchmarking-Malware-Family-Classification>
 Early Stopping Patience: 10
 
 
-## Useage
+## Useage (Update after Rebuttal)
 
 Disassembly
 
