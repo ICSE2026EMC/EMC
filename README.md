@@ -82,8 +82,14 @@ Early Stopping Patience: 10
 
 ## Useage (Update after Rebuttal)
 
-Disassembly
+Download Dataset
 
+Download the MalwareBazaar_Labels.csv and MalwareDrift_Labels.csv from [](https://github.com/MHunt-er/Benchmarking-Malware-Family-Classification/tree/main/Datasets)
+
+Download the samples from [MalwareBazaar website](https://bazaar.abuse.ch/api/) according to the hash names.
+
+
+Disassembly (On Windows System)
 
 Put the `auto_opcode.py`  `opcode_extraction.py` in the IDA Pro working directory. 
 
@@ -92,14 +98,14 @@ Put the raw malware binary files in the `pefile_dir` and run
 python auto_opcode.py
 ```
 
-Feature Process
+Feature Process (On Linux System)
 
-Put the output of `auto_opcode.py` in the `folder_path` and run
+Put the output of `auto_opcode.py` in the `folder_path`(modify in opc_trans_sen.py) and run
 ```
 python opc_trans_sen.py
 ```
 
-Model Training and Validation
+Model Training and Validation (On Linux System)
 
 Put the training and verification feature vectors processed by `opc_trans_sen.py` under path `traindir` `valdir`, and run
 ```
