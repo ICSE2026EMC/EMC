@@ -87,7 +87,7 @@ Download Dataset
 Download the MalwareBazaar_Labels.csv and MalwareDrift_Labels.csv from [Benchmarking-Malware-Family-Classification
 ](https://github.com/MHunt-er/Benchmarking-Malware-Family-Classification/tree/main/Datasets)
 
-Download the samples from [MalwareBazaar website](https://bazaar.abuse.ch/api/) according to the hash names.
+Download the samples from [MalwareBazaar website](https://bazaar.abuse.ch/api/) according to their hash names.
 
 
 Disassembly (On Windows System)
