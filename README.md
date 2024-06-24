@@ -35,7 +35,7 @@ FPR for all MalwareDrift experiment (post-drift in TABLE IV)
 |    Model     |    FPR    |
 | :----------: | :-------: | 
 |    IMCFN     |   60.44   |
-|   MalConv    |   79.58   |
+|   MalConv    |   79.5823444   |
 |   CBOW+MLP   |   92.31   |
 |    MAGIC     |   74.14   |
 | Word2Vec+KNN |   59.97   |
