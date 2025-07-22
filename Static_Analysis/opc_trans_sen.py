@@ -2,11 +2,8 @@ import os
 import csv
 
 
-# hashname = {}
-# with open('/work/MalwareBazaar_Labels.csv','r') as f:
-# 	for line in f:
-# 		hashname.setdefault(line.split(',')[0],line.split(',')[1])
-# print(hashname['0a7e7f12d79130da067fd39ede7ff4dc3dc6665d88f5278745074d77132312bf'])
+
+
 
 # folder_path = "/work/opcodelist/"
 
@@ -69,9 +66,9 @@ with open('/work/MalwareDrift_Labels.csv','r') as f:
 		hashname.setdefault(line.split(',')[0],line.split(',')[1])
 
 folder_path = "/work/opcodelist_drift/post"
-#folder_path = "/work/opcodelist_drift/post"
+
 output_path = "/work/output_file_post.txt"
-#output_path = "/work/zhj/output_file_post.txt"
+
 
 with open(output_path, "w") as output_file:
     for file_name in os.listdir(folder_path):
