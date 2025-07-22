@@ -3,12 +3,12 @@ import subprocess
 import sys
 from get_call_graph import *
 import time
-ida_path = "D:\IDAPro\ida64.exe"
+ida_path = "ida64.exe"
 #返回当前目录的绝对路径
 work_dir = os.path.abspath('.')
 #拼接路径
 #pefile_dir = os.path.join(work_dir, 'pefile')
-pefile_dir = 'F:\MalwareDrift\malexe'
+pefile_dir = 'MalwareDrift'
 script_path = os.path.join(work_dir, 'opcode_extraction.py')
 
 pefile_list = os.listdir(pefile_dir)
