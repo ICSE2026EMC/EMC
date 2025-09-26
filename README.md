@@ -21,6 +21,7 @@ The bars for MalwareBazaar represent the performance of EMC with different numbe
 
 ### new Table 5: The average runtime overhead for one sample
 ![new Table 4: The Processing Pipeline of Feature Purification](running_time.png)
+_**The training time, previously in Table 3, has been moved to Table 5.**_
 
 ### new Table 6: The Computational Resource Overhead of All Methods on MalwareBazaar
 ![new Table 4: The Processing Pipeline of Feature Purification](computing_cost.png)
