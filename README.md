@@ -4,6 +4,7 @@ README
 
 A Semantic-Enhanced Malware Classification Framework with Robustness and Scalability.
 
+![](The_overall_architecture_of_EMC.png)
 
 
 ## Setup
