@@ -4,7 +4,9 @@ README
 
 A Semantic-Enhanced Malware Classification Framework with Robustness and Scalability.
 
-![](The_overall_architecture_of_EMC.png)
+![Figure 1: The_overall_architecture_of_EMC](The_overall_architecture_of_EMC.png)
+![new Figure 4: The Processing Pipeline of Feature Decorrelation](The_Processing_Pipeline_of_Feature_Decorrelation.png)
+![new Figure 4: The Processing Pipeline of Feature Purification](The_Processing_Pipeline_of_Feature_Purification.png)
 
 
 ## Setup
