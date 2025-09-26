@@ -12,7 +12,7 @@ A Semantic-Enhanced Malware Classification Framework with Robustness and Scalabi
 #### **new Figure 4: The Processing Pipeline of Feature Decorrelation**
 ![new Figure 4: The Processing Pipeline of Feature Decorrelation](Feature_Decorrelation.png)
 
-#### **new Figure 4: The Processing Pipeline of Feature Purification**
+#### **new Figure 5: The Processing Pipeline of Feature Purification**
 ![new Figure 4: The Processing Pipeline of Feature Purification](Feature_Purification.png)
 
 
