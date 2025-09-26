@@ -27,6 +27,7 @@ _**The training time, previously in Table 3, has been moved to Table 5. （respo
 ![new Table 4: The Processing Pipeline of Feature Purification](computing_cost.png)
 
 
+
 ## Setup
 
 * `IDA Pro`: >= 7.5
