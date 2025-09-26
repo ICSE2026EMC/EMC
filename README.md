@@ -19,6 +19,9 @@ A Semantic-Enhanced Malware Classification Framework with Robustness and Scalabi
 ![new Figure 4: The Processing Pipeline of Feature Purification](ablation_of_BERT_windows.png)
 The bars for MalwareBazaar represent the performance of EMC with different numbers of windows on the MalwareBazaar dataset; the bars for MalwareDrift represent the performance of EMC (with different numbers of windows) that is trained on the pre-drift subset of MalwareDrift and then subjected to direct transfer testing on the post-drift subset of MalwareDrift.
 
+### new Table 5: The average runtime overhead for one sample
+![new Table 4: The Processing Pipeline of Feature Purification](running_time.png)
+
 ### new Table 6: The Computational Resource Overhead of All Methods on MalwareBazaar
 ![new Table 4: The Processing Pipeline of Feature Purification](computing_cost.png)
 
