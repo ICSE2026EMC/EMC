@@ -17,6 +17,7 @@ A Semantic-Enhanced Malware Classification Framework with Robustness and Scalabi
 
 #### new Figure 7: The Ablation Experiment of BERT Sliding Window
 ![new Figure 4: The Processing Pipeline of Feature Purification](ablation_of_BERT_windows.png)
+The bars for MalwareBazaar represent the performance of EMC with different numbers of windows on the MalwareBazaar dataset; the bars for MalwareDrift represent the performance of EMC (with different numbers of windows) that is trained on the pre-drift subset of MalwareDrift and then subjected to direct transfer testing on the post-drift subset of MalwareDrift.
 
 
 ## Setup
