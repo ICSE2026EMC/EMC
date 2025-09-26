@@ -16,7 +16,7 @@ A Semantic-Enhanced Malware Classification Framework with Robustness and Scalabi
 ![new Figure 4: The Processing Pipeline of Feature Purification](Feature_Purification.png)
 
 #### **new Figure 7: The Ablation Experiment of BERT Sliding Window **
-![new Figure 4: The Processing Pipeline of Feature Purification](Feature_Purification.png)
+![new Figure 4: The Processing Pipeline of Feature Purification](ablation_of_BERT_windows.png)
 
 
 ## Setup
