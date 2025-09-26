@@ -6,13 +6,16 @@ A Semantic-Enhanced Malware Classification Framework with Robustness and Scalabi
 
 ## Update after Rebuttal
 
-#### **Figure 1: The_overall_architecture_of_EMC**
+#### **new Figure 1: The_overall_architecture_of_EMC**
 ![Figure 1: The_overall_architecture_of_EMC](The_overall_architecture_of_EMC.png)
 
 #### **new Figure 4: The Processing Pipeline of Feature Decorrelation**
 ![new Figure 4: The Processing Pipeline of Feature Decorrelation](Feature_Decorrelation.png)
 
 #### **new Figure 5: The Processing Pipeline of Feature Purification**
+![new Figure 4: The Processing Pipeline of Feature Purification](Feature_Purification.png)
+
+#### **new Figure 7: The Ablation Experiment of BERT Sliding Window **
 ![new Figure 4: The Processing Pipeline of Feature Purification](Feature_Purification.png)
 
 
