@@ -6,20 +6,20 @@ A Semantic-Enhanced Malware Classification Framework with Robustness and Scalabi
 
 ## Update after Rebuttal
 
-#### **new Figure 1: The_overall_architecture_of_EMC**
+### **new Figure 1: The_overall_architecture_of_EMC**
 ![Figure 1: The_overall_architecture_of_EMC](The_overall_architecture_of_EMC.png)
 
-#### **new Figure 4: The Processing Pipeline of Feature Decorrelation**
+### **new Figure 4: The Processing Pipeline of Feature Decorrelation**
 ![new Figure 4: The Processing Pipeline of Feature Decorrelation](Feature_Decorrelation.png)
 
-#### **new Figure 5: The Processing Pipeline of Feature Purification**
+### **new Figure 5: The Processing Pipeline of Feature Purification**
 ![new Figure 4: The Processing Pipeline of Feature Purification](Feature_Purification.png)
 
-#### new Figure 7: The Ablation Experiment of BERT Sliding Window
+### new Figure 7: The Ablation Experiment of BERT Sliding Window
 ![new Figure 4: The Processing Pipeline of Feature Purification](ablation_of_BERT_windows.png)
 The bars for MalwareBazaar represent the performance of EMC with different numbers of windows on the MalwareBazaar dataset; the bars for MalwareDrift represent the performance of EMC (with different numbers of windows) that is trained on the pre-drift subset of MalwareDrift and then subjected to direct transfer testing on the post-drift subset of MalwareDrift.
 
-#### new Table 6: The Computational Resource Overhead of All Methods on MalwareBazaar
+### new Table 6: The Computational Resource Overhead of All Methods on MalwareBazaar
 ![new Table 4: The Processing Pipeline of Feature Purification](computing_cost.png)
 
 
